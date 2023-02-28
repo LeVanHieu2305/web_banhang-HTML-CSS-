@@ -1,0 +1,397 @@
+*{
+    margin: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* background-color: #ccc; */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+header{
+    height: 13%;
+    /* border: 1px solid red; */
+    position: fixed;
+    margin: auto;
+    /* padding: 0; */
+    top: 0%;
+    width: 100%;
+    /* margin-bottom: 50px; */
+}
+nav{
+    height: 30%;
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    line-height: 6px;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav > ul > li{
+    /* display: inline-block;  */
+    /* margin: 16px 10px; */
+}
+nav > ul > li >a{
+    text-decoration: none;
+    color: white;
+}
+
+.hea{
+    height: 73%;
+    background-color: #FF6200;
+}
+.hea .box{
+    padding: 0 18%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FF6200;
+}
+
+.hea .box .menu1, .menu2{
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+.hea .box .menu1{
+    /* margin: 0% -33% 0% -10%; */
+    flex: 1;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.hea .box .menu2{
+    /* margin-left: 39%; */
+    width: 20%;
+    justify-content: space-evenly;
+}
+.hea > .box > .menu1 > li{
+    /* border: 1px solid rebeccapurple;  */
+    display: inline-block; 
+}
+.hea .menu1 > li > a{
+    font-size: 17px;
+    /* float: right; */
+    /* line-height: 63px; */
+    /* margin: 0 10px; */
+    text-decoration: none;
+    color: #fff;
+    /* padding: 0% 20px;  */
+    /* border: 1px solid red; */
+}
+.hea .menu1 > li a:hover{
+    color: #ca5c21;
+}
+.hea .menu2 > li > a{
+    font-size: 20px;
+    /* float: right; */
+    /* line-height: 23%; */
+    /* margin: 0 10px; */
+    text-decoration: none;
+    color: #fff;
+    /* padding: 0px 7px;  */
+    /* border: 1px solid red; */
+}
+.hea .menu2 > li > a:hover{
+    color: #FC4851;
+}
+
+.lon{
+    width: 78%;
+    /* height: 10%; */
+    /* border: 1px solid black; */
+    margin: 7% auto 0%;
+    background-color: rgb(255, 255, 255);
+}
+ .gioithieu{
+    width: 78%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blueviolet; */
+    margin: 1.1% auto;
+    /* background-color: #ca5c21; */
+}
+ .gioithieu3{
+    width: 33%;
+    height: 90%;
+}
+ .gioithieu .gioithieu3 img{
+    width: 100%;
+    height: 100%;
+}
+ .gioithieu1{
+    width: 33%;
+    height: 50%;
+    margin: 2% 2%;
+    line-height: 30px;
+}
+ .gioithieu1 h3{
+    color: salmon;
+    margin-top: 5%;
+}
+ .gioithieu1 h1{
+    color: black;
+    font-size: 30px;
+    margin-top: 7%;
+}
+ .gioithieu1 p{
+    color: gray;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 3%;
+}
+ .gioithieu2{
+    width: 33%;
+    height: 90%;
+}
+ .gioithieu .gioithieu2 img{
+    width: 100%;
+    height: 100%;
+}
+
+ .aboutus{
+    width: 78%;
+    height: 60%;
+    /* border: 1px solid brown; */
+    display: flex;
+    margin: auto;
+    /* background-color: rgb(27, 211, 104); */
+}
+ .aboutus ul{
+    list-style: none;
+}
+ .aboutus .yeah{
+    width: 20%;
+    /* height: 520px; */
+    /* background-color: brown; */
+}
+ .aboutus .yeah ul{
+    margin: 0% 0% 0% -22%;
+}
+ .aboutus .yeah ul li{
+    /* border: 1px solid grey; */
+    text-align: center;
+    margin: 27%; 
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+ .aboutus .cotmoc{
+    width: 80%;
+    height: 520px;
+    /* background-color: blue; */
+}
+ .aboutus .cotmoc ul{
+    margin: -1% 0% 1% -5%;
+}
+ .aboutus .cotmoc ul li{
+    /* border: 1px solid grey; */
+    /* text-align: center; */
+    /* margin-bottom: 80px; */
+    margin:9% 0%;
+    font-size: 18px;
+    font-weight: 600;
+    color: gray;
+}
+
+
+.tongchan{
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+}
+footer{
+    color: grey ;
+    width: 78%;
+    height: 1%;
+    margin: auto; 
+    /* border: 1px solid blue; */
+}
+footer .chan1{
+    width: 100%;
+    height: 1%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+footer .footer1 {
+    width: 23%;
+    height: 1%;
+    /* border: 1px solid yellow; */
+}
+footer .footer2{
+    width: 22%;
+    height: 1%;
+    /* border: 1px solid yellow; */
+}
+footer .footer3 {
+    width: 19%;
+    height: 1%;
+    /* border: 1px solid yellow; */
+}
+
+footer .footer4 {
+    width: 18%;
+    height: 1%;
+    /* border: 1px solid yellow; */
+}
+footer .footer5 {
+    width: 18%;
+    height: 1%;
+    /* border: 1px solid yellow; */
+}
+footer .footer1 h3 {
+    font-size: 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-top: 5%;
+}
+footer .footer2 h3 {
+    font-size: 15px;
+    margin-top: 5%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer .footer3 h3 {
+    font-size: 15px;
+    margin-top: 5%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer .footer4 h3 {
+    font-size: 15px;
+    margin-top: 5%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer .footer5 h3 {
+    font-size: 15px;
+    margin-top: 5%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer .footer1 p {
+    font-size: 12px;
+    margin: 4% 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer p:hover{
+    text-decoration: underline;
+}
+footer .footer2 p {
+    font-size: 12px;
+    line-height: 21px;
+    margin: 4% 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer .footer3 p {
+    font-size: 12px;
+    line-height: 21px;
+    margin: 4% 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer .footer4 p {
+    font-size: 12px;
+    line-height: 21px;
+    margin: 4% 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer .footer5 p {
+    font-size: 12px;
+    margin: 4% 0;
+    line-height: 21px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+footer .footer3 img{
+    width: 50%;
+    height: 10%;
+}
+footer .footer4 img{
+    margin: 5% 0% 0% 5% ;
+    border-radius: 5px;
+}
+footer .footer3 h4{
+    font-size: 15px;
+}
+footer .footer5 img{
+    border-radius: 50px;
+    margin: 5% auto;
+    width: 20%;
+    height: 20%;
+    /* border: 1px solid orangered; */
+}
+footer .chan2{
+    border-top: 1px solid gainsboro;
+}
+footer .chan2 p{
+    margin-top: 2%;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+}
+@media screen and (max-width: 768px){
+    .hea .box{
+        height: 100%;
+    }
+    .hea .box img{
+        width: 25%;
+        height: 30px;
+    }
+    nav > ul > li >a{
+        font-size: 16px;
+    }
+    .hea .menu1 > li > a{
+        font-size: 10px;
+        /* margin: 0% 7px; */
+    }
+    .hea .menu2 > li > a{
+        font-size: 15px;
+    }
+    .lon{
+        margin-top: 9%;
+    }
+    .gioithieu{
+
+    }
+    .gioithieu1 h3{
+        font-size: 15px;
+    }
+    .gioithieu1 h1{
+        font-size: 18px;
+        margin-bottom: -5%;
+    }
+    .gioithieu1 p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .gioithieu2{
+        margin-top: 5%;
+    }
+    .gioithieu3{
+        margin-top: 5%;
+    }
+
+    .aboutus{
+        height: 302px;
+    }
+    .aboutus .yeah{
+        width: 30%;
+    }
+    .aboutus .cotmoc{
+        width: 70%;
+    }
+    .aboutus .yeah ul li{
+        font-size: 15px;
+    }
+    .aboutus .cotmoc ul{
+        margin: 11% 0% 0% -11%;
+    }
+    .aboutus .cotmoc ul li{
+        font-size: 10px;
+        margin: 8% 0%;
+    }
+    }

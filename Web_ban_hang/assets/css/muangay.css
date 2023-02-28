@@ -1,0 +1,347 @@
+* {
+    margin: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.active {
+    display: block !important;
+}
+
+.container {
+    position: fixed;
+    background-color: #eeeeee;
+    width: 100%;
+    /* height: 5650px; */
+    margin: auto;
+    /* background-color: #ccc; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .free {
+    width: 100%;
+    /* height: 30%; */
+    background-color: #dbbca9;
+    display: flex;
+    margin: auto;
+}
+
+.container .free span {
+    margin: 0 1% 0 8%;
+    line-height: 58px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container .hea {
+    border-bottom: 1px solid gainsboro;
+    box-shadow: 0px 5px 15px (rgba(0, 0, 0, 6%));
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.container .hea_2 {
+    margin: auto;
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .hea .logo {
+    padding: 7px;
+    font-size: 24px;
+    font-weight: 600;
+    /* background-color: #0d00ff; */
+}
+
+.container .hea .logo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container .hea .menu {
+    padding: 10px;
+    /* background-color: #00ff7b; */
+}
+
+.container .hea .menu>ul.menu_c1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .hea .menu>ul.menu_c1>li {
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.container .hea .menu>ul.menu_c1>li>a {
+    /* background-color: #FC4851; */
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #222;
+}
+
+.container .hea .menu>ul.menu_c1>li:hover>a {
+    /* background-color: #FC4851; */
+    color: #dbbca9;
+    font-weight: 600;
+    /* font-size: 20px; */
+}
+
+.container .hea .menu>ul.menu_c1>li>ul {
+    /* background-color: #FC4851; */
+    position: absolute;
+    top: 33px;
+    width: 200px;
+    padding: 0;
+    display: none;
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li {
+    padding: 10px 15px;
+    border-bottom: 1px solid beige;
+    background-color: #eeeeee;
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li:hover {
+    background-color: rgb(219, 188, 169);
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.container .hea .menu>ul.menu_c1>li:hover>ul {
+    display: block;
+}
+
+.container .hea .icon {
+    padding: 10px;
+    display: flex;
+    /* background-color: #0d00ff; */
+}
+
+.container .hea .icon span {
+    padding: 0px 8px;
+}
+
+.container .hea .icon i {
+    color: #222;
+}
+
+.container .hea .icon span input {
+    display: none;
+}
+
+.container .hea .icon span i {
+    display: block;
+}
+
+.content {
+    padding-top: 104px;
+    background-color: white;
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content .bao {
+    width: 40%;
+    /* background-color: #dbbca9; */
+    margin: 40px auto 0;
+}
+
+.content .diachi {
+    width: 60%;
+    margin: 40px auto 0;
+    /* background-color: yellowgreen; */
+}
+
+.content .diachi .bao_1 {
+    width: 90%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+.content .diachi .bao_1 h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.content .diachi .bao_1 .khung {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    padding: 10px 0;
+}
+
+.content .diachi .bao_1 .stress {
+    /* background-color: red; */
+    /* margin-left: 66px; */
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.content .diachi .bao_1 .stress input {
+    width: 100%;
+}
+
+.content .diachi .bao_1 .under {
+    width: 80%;
+    /* background: blueviolet; */
+    margin: auto;
+    padding: 10px 0;
+}
+
+.content .diachi .bao_1 .but {
+    width: 20%;
+    margin: auto;
+    /* background-color: #dbbca9; */
+}
+
+.content .diachi .bao_1 .but button {
+    width: 100%;
+    padding: 9px 0;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px;
+}
+
+.content .bao .sp {
+    width: 90%;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+.content .bao .sp .h_anh {
+    width: 30%;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.content .bao .sp .h_anh img {
+    width: 100%;
+}
+
+.content .bao .sp .text {
+    /* background-color: violet; */
+}
+
+.content .bao .sp .text h4,
+p {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.content .bao .sp .text p {
+    color: red;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.content .bao .sp .text .chon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .bao .ke {
+    border-top: 2px solid black;
+}
+
+.content .bao .tong_gia {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.content .bao .tong_gia span {
+    font-size: 30px;
+}
+
+.content .bao .tong_gia .gia {
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer {
+    border-top: 1px solid gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    background-color: white;
+}
+
+.footer .navfoot {
+    margin-top: 10px;
+    /* background-color: aqua; */
+}
+
+.footer ul {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .navicon {
+    /* background-color: brown; */
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+
+/* .container .footer .navcuoi {
+    background-color: rgb(0, 146, 73);
+} */
+
+.footer .navcuoi ul {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0;
+    gap: 30px;
+}
+
+.footer .navcuoi ul li {
+    font-size: 10px;
+}
